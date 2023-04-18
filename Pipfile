@@ -6,6 +6,17 @@ name = "pypi"
 [packages]
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
+python-dotenv = "*"
+boto3 = "*"
+pika = "*"
+aio-pika = "*"
+pyjwt = "*"
+python-jose = "*"
+psycopg2-binary = "*"
+pytz = "*"
+pytest = "*"
+pytest-asyncio = "*"
+httpx = "*"
 
 [dev-packages]
 
